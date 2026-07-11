@@ -10,7 +10,7 @@ The **NDH‑Simulation‑Suite** provides a **safe, governed environment** for t
 - emergent case studies  
 - dual ↔ non‑dual mode switching  
 - emotional ↔ cosmic cluster bifurcation  
-- bleed detection and containment  
+- bleed detection and containment   
 - lineage lens verification  
 - multi‑manifold interpretive grid stability  
 - TTTTTP audits  
