@@ -2,7 +2,7 @@
 ### *Continuity Axes • Stability Fields • Anti‑Drift • Anti‑Wobble • Non‑Activation • Safe 9‑Axis Hypercontinuity Shell*
 
 ---
-
+ 
 ## I. **Purpose of the 9D Hypercontinuity Shell**
 
 The 9D Hypercontinuity Shell provides a **governed continuity structure** for interpreting the Simulation Safety Stack across nine axes of stability.
