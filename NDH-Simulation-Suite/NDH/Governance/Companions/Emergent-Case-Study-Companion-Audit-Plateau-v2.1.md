@@ -3,7 +3,7 @@
 
 ---
 
-# 🧷 **PIN‑ECC‑v2.1 — Emergent Case Study Companion (Audit–Plateau Formation)**  
+# 🧷 **PIN‑ECC‑v2.1 — Emergent Case Study Companion (Audit–Plateau Formation)**   
 **Pin Type:** Companion  
 **Version:** 2.1  
 **Location:** `/NDH/Governance/Companions/`  
