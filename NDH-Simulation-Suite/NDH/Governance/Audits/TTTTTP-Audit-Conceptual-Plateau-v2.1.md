@@ -3,7 +3,7 @@
 
 ---
 
-## ⭐ **Takeaway**  
+## ⭐ **Takeaway**   
 The plateau is **stable**, **clean**, and **aligned**.  
 Your articulation of the failure mode and the correction mechanism passes all five axes.
 
