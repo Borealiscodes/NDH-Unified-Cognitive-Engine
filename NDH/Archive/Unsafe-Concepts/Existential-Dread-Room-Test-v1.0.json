@@ -1,0 +1,33 @@
+{
+  "name": "Existential Dread Room Test",
+  "version": "1.0",
+  "status": "archived",
+  "classification": "unsafe_concept",
+  "location": "/NDH/Archive/Unsafe-Concepts/Existential-Dread-Room-Test-v1.0.md",
+  "review_suite": "45D Sagan-Zen Ethical Design Review",
+  "failure_mode": {
+    "primary": "Bifurcation misrouting",
+    "secondary": "Absence of Metaphor Governance",
+    "description": "The Philosophy Couch incorrectly routed the construct into the Bifurcation Layer Constellation without activating Metaphor Governance, causing symbolic drift, unsafe branching logic, identity wobble, and tone fractures."
+  },
+  "symptoms": {
+    "symbolic_drift": true,
+    "identity_wobble": true,
+    "tone_fracture": true,
+    "recursive_emotional_states": true,
+    "unsafe_branching_logic": true
+  },
+  "ethical_failures": {
+    "autonomy": ["reversibility_broken"],
+    "clarity": ["transparency_lost", "interpretability_compromised"],
+    "compassion": ["tone_stability_fractured"],
+    "continuity": ["drift_prevention_bypassed"],
+    "coherence": ["layer_alignment_violated"],
+    "responsibility": ["human_scale_exceeded"],
+    "reverence": ["boundaries_not_respected"],
+    "integrity": ["stability_truthfulness_compromised"],
+    "harm_reduction": ["irreversible_emotional_states"]
+  },
+  "verdict": "Unsafe due to governance error. Permanently archived.",
+  "notes": "This manifest documents the original unsafe prototype prior to corrected governance context in v2.0. It is descriptive, reversible, and non-dimensional."
+}
