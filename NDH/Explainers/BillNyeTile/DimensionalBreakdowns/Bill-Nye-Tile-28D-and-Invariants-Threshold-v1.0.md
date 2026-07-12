@@ -2,7 +2,7 @@
 
 > *“Today, kids, we’re going to learn how Borealis built a 28‑layer simulation governance stack that can’t explode, recurse, activate, or summon a mythic dragon. Safety first!”*
 
----
+--- 
 
 # 🧪 **PART I — The Big Idea**
 
