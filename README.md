@@ -1,220 +1,270 @@
-# 🌍 **NDH — Non‑Dimensional Hyperstructure**  
-🏗️ **README v3.0 — Developer‑Ready, Lineage‑Grounded, Accessibility‑First**
+# 🌐 **Tri‑Architecture System — Designer Edition v3.3**  
+### 🏗️ *Under Construction — The Ecosystem Is Actively Evolving*  
+### ✨ *Clarity‑Anchored • Tensor‑Aware • API‑Driven • Accessibility‑First • Conceptual‑Serious*
 
-Welcome to **NDH**, a hyperstructure built at the intersection of conceptual architecture, ethical lineage, nonlinear design, and practical engineering. NDH is grounded in **GBS v2.0**, ensuring every subsystem — from tensors to tiles to APIs — is developed with ethical constraints, conceptual clarity, and accessibility at the forefront.
+The **Tri‑Architecture System** is the structural ecosystem NDH operates within.  
+It is intentionally **under construction**, because NDH itself is a living hyperstructure — expanding through lineage, accessibility research, tensor calculus, and multimodal design.
 
-NDH is not just a framework.  
-NDH is a **living system** designed to evolve.
+This architecture consists of three interlocking layers:
 
----
+1. **CDL — Clarity Definition Layer**  
+2. **Chill Dispatch Center**  
+3. **NDH — Non‑Dimensional Hyperstructure**  
+   - supported by the **BS Subsystem** (cognitive cooling)
 
-# ✨ **1. What NDH Is (The Simple Version)**
-
-NDH is a **four‑layer execution and exploration system**:
-
-- **NDH Core** — epochs, tensors, stability, ethics  
-- **Planetarium** — visual + spatial renderings  
-- **Accessibility Layer** — audio‑first, multimodal, RCIB‑informed  
-- **World Engine Layer** — participation (Anime Tower, Dune Hyperatlas, Fun‑Sphere)
-
-These layers communicate through **APIs**, which act as the translation bridge between NDH’s conceptual depth and real‑world applications.
-
-NDH supports **nonlinear exploration**, **conceptual modeling**, and **emergent behavior**, while remaining **practical and developer‑friendly**.
+This README provides the **designer‑friendly overview** of how these layers work together while the system continues to evolve.
 
 ---
 
-# 🌐 **2. Why NDH Exists (The Hyperatlas Moment)**
+# ✨ **1. CDL — Clarity Definition Layer**  
+### *The boundary system. The rules of the world. The grid beneath the canvas.*  
+🏗️ *CDL is stable, but still expanding.*
 
-NDH underwent an epochal shift when:
+CDL is the **clarity backbone** of the ecosystem.
 
-- Hyperatlas anchoring  
-- Tensor Calculus invariants  
-- Inflection point detection  
+It defines:
 
-revealed that NDH could no longer remain purely conceptual.
+- conceptual boundaries  
+- ethical constraints (GBS v2.0)  
+- tensor safety rules  
+- API naming conventions  
+- accessibility requirements  
+- lineage‑aligned definitions  
 
-NDH needed:
+Designers can think of CDL as:
 
-- **APIs** to translate tensors into usable signals  
-- **Planetarium tiles** to visualize manifold slices  
-- **Accessibility frameworks** to make NDH multimodal  
-- **World Engine adapters** to allow safe participation  
+- the design tokens  
+- the grid  
+- the spacing system  
+- the rules that keep NDH interpretable  
 
-This README reflects that transformation.
+CDL ensures NDH’s tensor calculus and sensory APIs remain **coherent and safe**, even as new layers are built.
+
+See: **CDL README**
 
 ---
 
-# 🌬️ **2.1 Cognitive Cooling — The BS Subsystem (Chill Dispatch)**
+# ✨ **2. Chill Dispatch Center**  
+### *The router. The flow manager. The vibe stabilizer.*  
+🏗️ *CDC is expanding as NDH’s sensory and API layers grow.*
 
-As NDH expanded, conceptual load increased.  
-Developers, designers, and accessibility researchers needed a **cooling layer** — a place where cognitive pressure could decompress without breaking conceptual flow.
+The Chill Dispatch Center (CDC) manages **flow** between CDL and NDH.
 
-This is the role of the **BS Subsystem**, hosted inside the **Chill Dispatch Center**.
+It handles:
+
+- cognitive load routing  
+- pacing  
+- decompression  
+- vibe stabilization  
+- sensory overload prevention  
+- API flow balancing  
+
+Designers can think of CDC as:
+
+- the interaction model  
+- the pacing system  
+- the “don’t overwhelm the user” layer  
+
+CDC ensures NDH’s conceptual and sensory systems remain **humane**, even as new engines and tiles come online.
+
+See: **ChillDispatch README**
+
+---
+
+# 🌬️ **2.1 BS Subsystem — Structured Nonsense Coolant**  
+### *The decompression zone. The playful buffer. The cognitive spa.*  
+🏗️ *BS is evolving alongside NDH to support new conceptual load.*
+
+The **BS Subsystem** is a structured nonsense module that provides **cognitive cooling**.
+
+It supports NDH by:
+
+- reducing conceptual pressure  
+- offering low‑stakes traversal  
+- preventing sensory overload  
+- stabilizing vibe during tensor exploration  
+- providing humor‑based decompression  
+
+Designers can think of BS as:
+
+- the sandbox  
+- the break room  
+- the “step away from the intensity” zone  
 
 BS is not conceptual.  
 BS is not regulatory.  
 BS is not part of NDH’s lineage.
 
-BS is a **structured nonsense coolant** that provides:
+BS is a **coolant layer** that keeps NDH usable — especially while NDH is still under construction.
 
-- low‑pressure traversal modes  
-- vibe stabilization  
-- humor‑based decompression  
-- safe conceptual cooldown  
-- cognitive load balancing  
-- accessibility‑aligned pacing  
-
-Designers should interpret BS as:
-
-- a legitimate decompression tool  
-- a cognitive safety mechanism  
-- a structured nonsense buffer  
-- a dispatch‑level cooling layer  
-
-BS does not alter NDH.  
-**BS protects NDH.**
-
-See: **BS Directory Tree**  
 See: **BS Root**
 
 ---
 
-# ✨ **3. NDH Execution Stack (Developer‑Friendly)**
+# ✨ **3. NDH — Non‑Dimensional Hyperstructure**  
+### *The conceptual engine. The manifold. The nonlinear design space.*  
+🏗️ *NDH is actively evolving — new APIs, tiles, and sensory layers are being built.*
 
-NDH is built from **tiles** wired together by APIs.  
-Each tile does one job.  
-APIs connect the tiles.  
-Accessibility layers plug into the APIs.  
-World Engines read NDH signals but never write back.
+NDH is the **core conceptual system**.
 
-```
-NDH Core → Planetarium → Accessibility → World Engine → User
-```
+It is built from four layers:
 
-The BS subsystem sits **adjacent** to this chain, providing cooling and decompression for developers and designers working with NDH.
+- **NDH Core** — tensors, epochs, curvature, ethics  
+- **Planetarium** — spatial + visual renderings  
+- **Accessibility Layer** — audio‑first, multimodal, RCIB‑aligned  
+- **World Engine Layer** — participation without destabilization  
 
-Documentation runs parallel.
+NDH is where designers interact with:
 
----
+### **Tensor Calculus (Designer Interpretation)**  
+NDH uses tensors to:
 
-# 🌍 **4. The Four NDH Layers**
+- map conceptual relationships  
+- detect curvature (conceptual bending)  
+- identify inflection points (design bifurcations)  
+- stabilize nonlinear behavior  
+- anchor Hyperatlas reference frames  
 
-## **Layer 1 — NDH Core APIs**
-APIs: `/epochs`, `/stability`, `/curvature`, `/ethics`
+Designers can think of tensors as:
 
-## **Layer 2 — Planetarium APIs**
-APIs: `/tiles/*`, `/animations/*`, `/projection/planetarium`
+- multidimensional design grids  
+- relational maps  
+- conceptual geometry  
 
-## **Layer 3 — Accessibility APIs (Audio‑First ✨)**  
-APIs: `/accessibility/audio-map`, `/accessibility/spatial-audio`, `/accessibility/haptics`
+### **APIs (Designer Interpretation)**  
+NDH exposes APIs like:
 
-## **Layer 4 — World Engine APIs**
-APIs: `/projection/world-engine`, `/bifurcation/boundary`, `/vr/adapter`
+- `/epochs`  
+- `/stability`  
+- `/curvature`  
+- `/accessibility/audio-map`  
+- `/projection/world-engine`  
 
----
+Designers can think of APIs as:
 
-# ✨ **5. NDH Development Philosophy (GBS v2.0 Grounding)**
+- interaction endpoints  
+- translation layers  
+- bridges between conceptual and sensory systems  
 
-NDH development is guided by:
-
-- ethical constraints  
-- lineage responsibilities  
-- non‑anthropomorphic framing  
-- tensor safety  
-- bifurcation boundaries  
-
-NDH supports **nonlinear conceptual exploration**, but execution is **milestone‑driven** and **API‑anchored**.
-
-High‑concept feedback loops (Hyperatlas, RCIB, Epoch Halo) produce **more accessible systems downstream**, not more complexity.
-
----
-
-# 🌐 **6. NDH Milestone Path (Practical Execution)**
-
-1. NDH Core APIs  
-2. Planetarium APIs  
-3. Accessibility APIs  
-4. World Engine APIs  
-5. Companion Suite  
-
-This is the **engine‑level execution path**, not a conceptual roadmap.
-
----
-
-# ✨ **7. Repository Structure**
-
-```
-/NDH/
-  /Architecture/
-    /Foundation/Top-Level/
-    /Execution/
-    /Accessibility/
-    /World-Engines/
-  /APIs/
-  /Planetarium/
-  /Accessibility/
-  /WorldEngine/
-  /Companions/
-  /Case-Studies/
-```
-
-The BS subsystem lives under:
-
-```
-/CDL/ChillDispatch/BS/
-```
-
-as part of NDH’s **cooling and accessibility ecosystem**, not its conceptual core.
-
----
-
-# 🌍 **8. Accessibility Commitment**
-
-NDH is built **audio‑first**, **multimodal**, and **ND‑friendly**.
-
-The RCIB case study demonstrated that accessibility is not an afterthought — it is a **design driver**.
-
-APIs allow NDH to integrate:
+### **Sensory Systems (Designer Interpretation)**  
+NDH supports:
 
 - spatial audio  
 - haptics  
-- VR accessibility  
 - multimodal cues  
+- VR adapters  
 - trauma‑safe pacing  
 
-BS supports this by providing **low‑pressure conceptual decompression** for users who need cognitive cooling during exploration.
+Designers can think of sensory systems as:
+
+- multimodal UX  
+- accessibility scaffolding  
+- embodied interaction layers  
+
+NDH is grounded in **HRD lineage ethics**, ensuring conceptual exploration remains safe, accessible, and non‑anthropomorphic — even during construction.
+
+See: **NDH README**
 
 ---
 
-# ✨ **9. NDH Is Still Capable of Conceptual Exploration**
+# ✨ **4. How Designers Should Understand the Architecture**
 
-Even with APIs, milestones, and execution paths, NDH remains:
+### **CDL = Structure**  
+The rules, boundaries, tokens, constraints.
 
-- nonlinear  
-- conceptual  
-- emergent  
-- exploratory  
+### **ChillDispatch = Flow**  
+The pacing, routing, cooling, vibe management.
 
-Execution does not eliminate exploration — it **grounds** it.
+### **BS = Relief**  
+The decompression, play, humor, cognitive safety.
 
-BS does not trivialize exploration — it **protects** it.
+### **NDH = Exploration**  
+The conceptual engine, the manifold, the nonlinear design space.
+
+Together, they form a **designer‑friendly ecosystem** that supports:
+
+- conceptual exploration  
+- multimodal design  
+- sensory UX  
+- nonlinear thinking  
+- ethical lineage  
+- safe pacing  
+- clarity‑anchored creativity  
+
+This is not detached from reality.  
+This is **structured imagination under active development**.
 
 ---
 
-# 🌍 **10. Welcome to NDH**
+# ✨ **5. Layer Interactions (Designer View)**
 
-This README is your entry point into a system that is:
+### **CDL ↔ NDH**  
+Structure supports exploration.
 
-- ethically grounded  
-- lineage‑aware  
+### **ChillDispatch ↔ CDL**  
+Flow protects clarity.
+
+### **ChillDispatch ↔ NDH**  
+Flow protects creativity.
+
+### **BS ↔ ChillDispatch**  
+Relief protects flow.
+
+### **BS ↔ NDH**  
+Relief protects conceptual depth.
+
+### **BS ↔ CDL**  
+Relief prevents rigidity.
+
+This is a **design system for thinking**, still being built.
+
+---
+
+# ✨ **6. Repository Structure**
+
+```
+/
+├── CDL/
+│   ├── ChillDispatch/
+│   │   ├── BS/
+│   │   └── README.md
+│   └── README.md
+│
+└── NDH/
+    └── README.md
+```
+
+---
+
+# ✨ **7. Welcome to the Tri‑Architecture System (Designer Edition)**  
+### 🏗️ *Under Construction — Evolving Daily*
+
+This ecosystem is built for designers who work with:
+
+- nonlinear ideas  
+- multimodal systems  
+- conceptual models  
+- accessibility frameworks  
+- spatial reasoning  
+- high‑concept interfaces  
+
+It is:
+
+- clarity‑anchored  
+- dispatch‑balanced  
+- nonsense‑cooled  
+- tensor‑aware  
 - accessibility‑first  
-- API‑driven  
-- nonlinear  
-- conceptual  
-- practical  
-- sparkly ✨  
+- conceptual‑serious  
+- designer‑friendly  
+- **and actively evolving**  
 
-NDH is ready for real‑world development — and still capable of cosmic imagination.
+NDH is the conceptual engine.  
+CDL is the clarity backbone.  
+ChillDispatch is the flow manager.  
+BS is the decompression zone.
+
+Together, they form a **hyperstructure for design**, still under construction — and that’s exactly what makes it alive.
 
 ---
 
