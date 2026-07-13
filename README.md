@@ -1,17 +1,16 @@
 # 🌍 **NDH — Non‑Dimensional Hyperstructure**  
-🏗️ **Under Construction — NDH is actively evolving**  
-### ✨ *README v2.0 — Accessible, Developer‑Ready, Lineage‑Grounded*
+🏗️ **README v3.0 — Developer‑Ready, Lineage‑Grounded, Accessibility‑First**
 
-Welcome to **NDH**, a system built at the intersection of conceptual architecture, ethical lineage, nonlinear design, and practical engineering. NDH is grounded in **GBS v2.0**, ensuring every subsystem — from tensors to tiles to APIs — is developed with ethical constraints, conceptual clarity, and accessibility at the forefront.
- 
+Welcome to **NDH**, a hyperstructure built at the intersection of conceptual architecture, ethical lineage, nonlinear design, and practical engineering. NDH is grounded in **GBS v2.0**, ensuring every subsystem — from tensors to tiles to APIs — is developed with ethical constraints, conceptual clarity, and accessibility at the forefront.
+
 NDH is not just a framework.  
-It is a **hyperstructure** designed to evolve.
+NDH is a **living system** designed to evolve.
 
 ---
 
 # ✨ **1. What NDH Is (The Simple Version)**
 
-NDH is a **four‑layer system**:
+NDH is a **four‑layer execution and exploration system**:
 
 - **NDH Core** — epochs, tensors, stability, ethics  
 - **Planetarium** — visual + spatial renderings  
@@ -20,13 +19,13 @@ NDH is a **four‑layer system**:
 
 These layers communicate through **APIs**, which act as the translation bridge between NDH’s conceptual depth and real‑world applications.
 
-NDH is capable of **nonlinear design**, conceptual exploration, and emergent behavior — but it is also engineered for **practical execution**.
+NDH supports **nonlinear exploration**, **conceptual modeling**, and **emergent behavior**, while remaining **practical and developer‑friendly**.
 
 ---
 
 # 🌐 **2. Why NDH Exists (The Hyperatlas Moment)**
 
-NDH underwent an **epochal transformation** when:
+NDH underwent an epochal shift when:
 
 - Hyperatlas anchoring  
 - Tensor Calculus invariants  
@@ -34,14 +33,49 @@ NDH underwent an **epochal transformation** when:
 
 revealed that NDH could no longer remain purely conceptual.
 
-These discoveries showed that NDH needed:
+NDH needed:
 
-- **APIs** to translate conceptual tensors into usable signals  
+- **APIs** to translate tensors into usable signals  
 - **Planetarium tiles** to visualize manifold slices  
 - **Accessibility frameworks** to make NDH multimodal  
-- **World Engine adapters** to allow participation without compromising safety
+- **World Engine adapters** to allow safe participation  
 
 This README reflects that transformation.
+
+---
+
+# 🌬️ **2.1 Cognitive Cooling — The BS Subsystem (Chill Dispatch)**
+
+As NDH expanded, conceptual load increased.  
+Developers, designers, and accessibility researchers needed a **cooling layer** — a place where cognitive pressure could decompress without breaking conceptual flow.
+
+This is the role of the **BS Subsystem**, hosted inside the **Chill Dispatch Center**.
+
+BS is not conceptual.  
+BS is not regulatory.  
+BS is not part of NDH’s lineage.
+
+BS is a **structured nonsense coolant** that provides:
+
+- low‑pressure traversal modes  
+- vibe stabilization  
+- humor‑based decompression  
+- safe conceptual cooldown  
+- cognitive load balancing  
+- accessibility‑aligned pacing  
+
+Designers should interpret BS as:
+
+- a legitimate decompression tool  
+- a cognitive safety mechanism  
+- a structured nonsense buffer  
+- a dispatch‑level cooling layer  
+
+BS does not alter NDH.  
+**BS protects NDH.**
+
+See: **BS Directory Tree**  
+See: **BS Root**
 
 ---
 
@@ -56,6 +90,8 @@ World Engines read NDH signals but never write back.
 ```
 NDH Core → Planetarium → Accessibility → World Engine → User
 ```
+
+The BS subsystem sits **adjacent** to this chain, providing cooling and decompression for developers and designers working with NDH.
 
 Documentation runs parallel.
 
@@ -79,7 +115,7 @@ APIs: `/projection/world-engine`, `/bifurcation/boundary`, `/vr/adapter`
 
 # ✨ **5. NDH Development Philosophy (GBS v2.0 Grounding)**
 
-Developers operate within:
+NDH development is guided by:
 
 - ethical constraints  
 - lineage responsibilities  
@@ -99,9 +135,9 @@ High‑concept feedback loops (Hyperatlas, RCIB, Epoch Halo) produce **more acce
 2. Planetarium APIs  
 3. Accessibility APIs  
 4. World Engine APIs  
-5. Companion Suite
+5. Companion Suite  
 
-This is the **car‑engine‑level** execution path — not a conceptual roadmap.
+This is the **engine‑level execution path**, not a conceptual roadmap.
 
 ---
 
@@ -122,6 +158,14 @@ This is the **car‑engine‑level** execution path — not a conceptual roadmap
   /Case-Studies/
 ```
 
+The BS subsystem lives under:
+
+```
+/CDL/ChillDispatch/BS/
+```
+
+as part of NDH’s **cooling and accessibility ecosystem**, not its conceptual core.
+
 ---
 
 # 🌍 **8. Accessibility Commitment**
@@ -138,7 +182,7 @@ APIs allow NDH to integrate:
 - multimodal cues  
 - trauma‑safe pacing  
 
-Accessibility is a **first‑class citizen** in NDH.
+BS supports this by providing **low‑pressure conceptual decompression** for users who need cognitive cooling during exploration.
 
 ---
 
@@ -152,6 +196,8 @@ Even with APIs, milestones, and execution paths, NDH remains:
 - exploratory  
 
 Execution does not eliminate exploration — it **grounds** it.
+
+BS does not trivialize exploration — it **protects** it.
 
 ---
 
