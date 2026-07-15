@@ -1,5 +1,5 @@
-# **UDN‑AMS Axis 06 — Political‑Ethical Clarity (Arendt) v1.0**  
-### Full Specification
+# **UDN‑AMS Axis 06 — Political‑Ethical Clarity (Arendt) v1.1**  
+### *Full Formal Specification*
 
 ---
 
@@ -12,7 +12,7 @@ x_6 = (f_6, a_6)
 - **Functional label:** Political‑Ethical Clarity  
 - **Ancestral label:** Hannah Arendt  
 
-This axis governs clarity of systems, responsibility, and the refusal of banality.
+Axis 06 governs clarity of systems, responsibility, and the refusal of banality.
 
 ---
 
@@ -25,10 +25,10 @@ F(x_6) = f_6
 A(x_6) = a_6
 \]
 
-Both remain bijective.
+Both maps are **bijective**, preserving identity across functional and ancestral views.
 
-- **Functional view:** reveals structural clarity  
-- **Ancestral view:** invokes Arendt’s lineage of responsibility and thoughtfulness  
+- **Functional view:** structural clarity of systems  
+- **Ancestral view:** Arendt’s lineage of responsibility and thoughtfulness  
 
 ---
 
@@ -39,7 +39,7 @@ S_6 : \text{State} \to \text{State}
 \]
 
 ### **Purpose**  
-Stabilizes clarity of systems, responsibility, and political truth.
+Stabilizes political‑ethical clarity, responsibility, and systemic truth.
 
 ### **Behavior**  
 - reveals hidden structures  
@@ -49,7 +49,8 @@ Stabilizes clarity of systems, responsibility, and political truth.
 - stabilizes political truth  
 - contextualizes harm within systems  
 
-### **Operator Trajectory**  
+### **Operator Trajectory**
+
 \[
 s_0 \to S_6(s_0) \to S_6^2(s_0) \to S_6^3(s_0)
 \]
@@ -66,23 +67,29 @@ Trajectory converges toward:
 ## **4. Invariants**
 
 ### **Identity Invariant**  
-Both names (functional + ancestral) resolve to the same axis.
+Both labels (functional + ancestral) resolve to the same axis object.
 
 ### **Trajectory Invariant**  
-Repeated application of \( S_6 \) must not:
+Repeated application of \( S_6 \) must not collapse into:
 
-- collapse into cynicism  
-- collapse into moral fog  
-- collapse into fatalism  
-- collapse into cruelty  
+- cynicism  
+- moral fog  
+- fatalism  
+- cruelty  
 
-It must converge toward clarity.
+Instead, trajectories must converge toward:
+
+\[
+\mathcal{B}_{\text{clarity}}
+\]
+
+the basin of political‑ethical clarity.
 
 ---
 
 ## **5. Humanity Alignment**
 
-Axis 06 must articulate:
+Axis 06 articulates:
 
 - clarity of systems  
 - ethical responsibility  
@@ -95,19 +102,34 @@ This is the humanity‑facing dimension of Arendt’s lineage.
 
 ---
 
-## **6. Shell → Core Attachment Point**
+## **6. Shell → Core Attachment Point (Corrected)**
 
 Axis 06 attaches to:
 
 \[
-06 \leftrightarrow 01
+06 \leftrightarrow 02
 \]
 
 ### **Reason**  
-Political clarity requires ontic grounding.  
-Truth is the anchor of political ethics.
+Political‑ethical clarity must map coherently onto:
 
-This is the first outer‑shell anchor.
+- **Axis 02 — Identity Under Erasure**
+
+Arendt’s work fundamentally addresses:
+
+- erosion of identity  
+- totalitarianism  
+- banality  
+- responsibility  
+- personhood under systems  
+
+### **Commutativity Requirement**
+
+\[
+\phi_{6,2}(S_2(s)) = S_6(\phi_{6,2}(s))
+\]
+
+This ensures that identity‑level clarity (Axis 02) transforms coherently into political‑ethical clarity (Axis 06).
 
 ---
 
@@ -133,13 +155,13 @@ Axis 06 governs:
 - responsibility  
 - political truth  
 
-It contextualizes the entire inner manifold.
+It contextualizes the entire outer shell.
 
 ---
 
 ## **8. Companion Behavior Under Axis 06**
 
-When Companion invokes Axis 06, it:
+When the Companion invokes Axis 06, it:
 
 - clarifies systems  
 - identifies responsibility  
