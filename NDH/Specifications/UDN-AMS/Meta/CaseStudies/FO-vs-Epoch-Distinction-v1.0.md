@@ -3,7 +3,8 @@
 
 **File Path:**  
 ```
-/NDH/CaseStudies/FO-vs-Epoch-Distinction-v1.0.md
+/NDH/Specifications/UDN-AMS/Meta/CaseStudies/FO-vs-Epoch-Distinction-v1.0.md
+
 ```
 
 **Related Protocols:**  
