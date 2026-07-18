@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <radialGradient id="coreGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#e8ffe8"/>
+      <stop offset="40%" stop-color="#9ad5ff"/>
+      <stop offset="80%" stop-color="#4b5b8a"/>
+      <stop offset="100%" stop-color="#0b0c10"/>
+    </radialGradient>
+
+    <linearGradient id="axisGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0b0c10"/>
+      <stop offset="40%" stop-color="#3b4b7f"/>
+      <stop offset="80%" stop-color="#9ad5ff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <circle id="node" r="20" fill="#ffffff"/>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="720" fill="#05060a"/>
+
+  <!-- Central metric core ℳ -->
+  <circle cx="600" cy="360" r="80" fill="url(#coreGrad)" filter="url(#softGlow)" opacity="0.95"/>
+  <text x="600" y="355" fill="#0b0c10" font-size="22" font-family="monospace" text-anchor="middle">
+    ℳ
+  </text>
+  <text x="600" y="385" fill="#0b0c10" font-size="12" font-family="monospace" text-anchor="middle">
+    Unified Metric
+  </text>
+
+  <!-- Reconstruction operator ℛ (above) -->
+  <circle cx="600" cy="170" r="30" fill="#ffffff" filter="url(#softGlow)"/>
+  <text x="600" y="170" fill="#0b0c10" font-size="16" font-family="monospace" text-anchor="middle" dy="4">
+    ℛ
+  </text>
+  <text x="600" y="205" fill="#ffffff" font-size="12" font-family="monospace" text-anchor="middle">
+    Meaning Reconstruction
+  </text>
+
+  <line x1="600" y1="210" x2="600" y2="280" stroke="#9ad5ff" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Novice node -->
+  <use href="#node" x="320" y="360" fill="#9ad5ff" filter="url(#softGlow)"/>
+  <text x="320" y="350" fill="#0b0c10" font-size="13" font-family="monospace" text-anchor="middle">
+    Novice
+  </text>
+  <text x="320" y="372" fill="#0b0c10" font-size="11" font-family="monospace" text-anchor="middle">
+    Aperture Aₙ
+  </text>
+  <text x="320" y="395" fill="#9ad5ff" font-size="11" font-family="monospace" text-anchor="middle">
+    “Ah So”
+  </text>
+
+  <!-- Master node -->
+  <use href="#node" x="880" y="360" fill="#ffb36b" filter="url(#softGlow)"/>
+  <text x="880" y="350" fill="#0b0c10" font-size="13" font-family="monospace" text-anchor="middle">
+    Master
+  </text>
+  <text x="880" y="372" fill="#0b0c10" font-size="11" font-family="monospace" text-anchor="middle">
+    Stability Sₘ
+  </text>
+  <text x="880" y="395" fill="#ffb36b" font-size="11" font-family="monospace" text-anchor="middle">
+    “Ah So”
+  </text>
+
+  <!-- Geometry node -->
+  <use href="#node" x="600" y="580" fill="#c45bff" filter="url(#softGlow)"/>
+  <text x="600" y="570" fill="#0b0c10" font-size="13" font-family="monospace" text-anchor="middle">
+    Geometry
+  </text>
+  <text x="600" y="592" fill="#0b0c10" font-size="11" font-family="monospace" text-anchor="middle">
+    Coherence C_g
+  </text>
+  <text x="600" y="615" fill="#c45bff" font-size="11" font-family="monospace" text-anchor="middle">
+    “Ah so”
+  </text>
+
+  <!-- Triadic connections -->
+  <line x1="340" y1="360" x2="520" y2="360" stroke="#9ad5ff" stroke-width="2" stroke-dasharray="6,4"/>
+  <line x1="680" y1="360" x2="860" y2="360" stroke="#ffb36b" stroke-width="2" stroke-dasharray="6,4"/>
+  <line x1="600" y1="440" x2="600" y2="560" stroke="#c45bff" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Triad loop arc -->
+  <path d="M 340 340 C 480 260 720 260 860 340"
+        fill="none" stroke="#9ad5ff" stroke-width="2" stroke-opacity="0.7"/>
+  <path d="M 860 380 C 720 460 480 460 340 380"
+        fill="none" stroke="#ffb36b" stroke-width="2" stroke-opacity="0.7"/>
+
+  <!-- Small labels near core -->
+  <text x="600" y="430" fill="#ffffff" font-size="11" font-family="monospace" text-anchor="middle">
+    Aₙ → Sₘ → C_g → ℛ(ℳ)
+  </text>
+
+  <!-- Title and footer -->
+  <text x="600" y="80" fill="#ffffff" font-size="18" font-family="monospace" text-anchor="middle">
+    NDH Threefold “Ah So” Tensor — Recognition, Confirmation, Coherence
+  </text>
+  <text x="600" y="700" fill="#9ad5ff" font-size="12" font-family="monospace" text-anchor="middle">
+    Novice “Ah So” (Aperture) • Master “Ah So” (Stability) • Geometry “Ah so” (Coherence) → ℛ(ℳ)
+  </text>
+</svg>
