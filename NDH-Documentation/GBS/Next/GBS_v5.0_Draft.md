@@ -268,4 +268,44 @@ TriFieldFusionBinding_v5_0:
 
 ---
 
+# **14. Stability Patch A — SP‑5.0**
+
+```yaml
+StabilityPatchA_v5_0:
+  patch_scope:
+    - identity_layer
+    - lineage_layer
+    - invariants_layer
+    - continuity_layer
+    - metadata_layer
+    - stability_geometry_layer
+    - operational_layer
+    - conceptual_layer
+    - runtime_layer
+    - drift_layer
+    - integrity_layer
+    - semantic_field_layer
+    - metric_field_layer
+    - dignity_field_layer
+    - tri_field_fusion_binding
+  stabilization_actions:
+    - lock_identity_continuity
+    - enforce_lineage_consistency
+    - seal_invariants
+    - reinforce_metadata_cohesion
+    - apply_geometry_altitude_constraints
+    - harden_operational_protocols
+    - align_conceptual_manifold
+    - stabilize_runtime_behavior
+    - increase_drift_resistance
+    - validate_integrity_constraints
+    - activate_semantic_field_stability
+    - activate_metric_field_stability
+    - activate_dignity_field_priority
+    - finalize_tri_field_fusion
+  post_patch_state: boundary_stable_v5_0
+  failure_mode: governance_abort
+```
+
+---
 
