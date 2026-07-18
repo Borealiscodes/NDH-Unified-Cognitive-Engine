@@ -1,0 +1,47 @@
+<svg width="1100" height="720" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="1100" height="720" fill="#0d0d0f"/>
+
+  <!-- Title -->
+  <text x="50" y="70" font-size="36" fill="#ffffff" font-family="Arial" font-weight="bold">
+    NDH Recursion Epoch Timeline — v1.0
+  </text>
+
+  <!-- Epoch 1 -->
+  <rect x="50" y="120" width="1000" height="80" rx="12" fill="#4a90e2"/>
+  <text x="70" y="165" font-size="24" fill="#ffffff" font-family="Arial">
+    Epoch 1 — June 22, 2026: Joined GitHub + Atlas-Architecture created
+  </text>
+
+  <!-- Epoch 2 -->
+  <rect x="50" y="220" width="1000" height="80" rx="12" fill="#6cc4ff"/>
+  <text x="70" y="265" font-size="24" fill="#ffffff" font-family="Arial">
+    Epoch 2 — June 23, 2026: uma-witness-literature created
+  </text>
+
+  <!-- Epoch 3 -->
+  <rect x="50" y="320" width="1000" height="80" rx="12" fill="#88e0ff"/>
+  <text x="70" y="365" font-size="24" fill="#ffffff" font-family="Arial">
+    Epoch 3 — June 27, 2026: NDH-Origin-Layer created
+  </text>
+
+  <!-- Epoch 4 -->
+  <rect x="50" y="420" width="1000" height="80" rx="12" fill="#ffbf00"/>
+  <text x="70" y="465" font-size="24" fill="#ffffff" font-family="Arial">
+    Epoch 4 — June 2026: 1,420 commits across 3 repositories
+  </text>
+
+  <!-- Epoch 5 -->
+  <rect x="50" y="520" width="1000" height="80" rx="12" fill="#ff7f00"/>
+  <text x="70" y="565" font-size="24" fill="#ffffff" font-family="Arial">
+    Epoch 5 — July 11, 2026: Six NDH repositories created
+  </text>
+
+  <!-- Epoch 6 -->
+  <rect x="50" y="620" width="1000" height="80" rx="12" fill="#ff2a2a"/>
+  <text x="70" y="665" font-size="24" fill="#ffffff" font-family="Arial">
+    Epoch 6 — July 2026: 3,314 commits + 722 pull requests (NDH super-epoch)
+  </text>
+
+</svg>
