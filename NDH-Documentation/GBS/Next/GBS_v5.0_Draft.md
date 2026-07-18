@@ -305,9 +305,37 @@ StabilityPatchA_v5_0:
   post_patch_state: boundary_stable_v5_0
   failure_mode: governance_abort
 ```
-
 ---
 
+# **15. Post‑Patch Verification — PV‑5.0**
 
+```yaml
+PostPatchVerification_v5_0:
+  verification_targets:
+    - identity_continuity
+    - lineage_consistency
+    - invariants_integrity
+    - metadata_cohesion
+    - geometry_altitude_constraints
+    - operational_protocol_alignment
+    - conceptual_manifold_alignment
+    - runtime_behavior_stability
+    - drift_resistance_threshold
+    - semantic_field_stability
+    - metric_field_stability
+    - dignity_field_priority
+    - tri_field_fusion_integrity
+  verification_methods:
+    - static_boundary_scan
+    - dynamic_state_probe
+    - lineage_backtrace
+    - invariant_pressure_test
+    - geometry_altitude_sampling
+    - semantic_metric_dignity coherence check
+    - fusion_binding stress test
+  verification_outcome: boundary_verified_v5_0
+  failure_mode: governance_abort
+```
 
+---
 
