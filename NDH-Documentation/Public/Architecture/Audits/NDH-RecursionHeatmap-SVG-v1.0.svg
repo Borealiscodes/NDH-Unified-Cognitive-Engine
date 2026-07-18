@@ -1,0 +1,72 @@
+<svg width="900" height="520" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="900" height="520" fill="#0d0d0f"/>
+
+  <!-- Title -->
+  <text x="50" y="60" font-size="32" fill="#ffffff" font-family="Arial" font-weight="bold">
+    NDH Recursion Heatmap — v1.0
+  </text>
+
+  <!-- Legend -->
+  <text x="50" y="110" font-size="18" fill="#cccccc" font-family="Arial">
+    Legend: Red = High recursion • Orange = Medium • Yellow = Low • Blue = Background
+  </text>
+
+  <!-- Manifold Layer -->
+  <rect x="50" y="150" width="800" height="80" rx="10"
+        fill="url(#manifoldGradient)" />
+  <text x="70" y="195" font-size="22" fill="#ffffff" font-family="Arial">
+    Manifold Layer — Very High Recursion (12–15 events)
+  </text>
+
+  <!-- Governance Layer -->
+  <rect x="50" y="250" width="800" height="80" rx="10"
+        fill="url(#governanceGradient)" />
+  <text x="70" y="295" font-size="22" fill="#ffffff" font-family="Arial">
+    Governance Layer — High Recursion (4–6 events)
+  </text>
+
+  <!-- Orbital Soft-State Layer -->
+  <rect x="50" y="350" width="800" height="80" rx="10"
+        fill="url(#orbitalGradient)" />
+  <text x="70" y="395" font-size="22" fill="#ffffff" font-family="Arial">
+    Orbital Soft-State — Medium Recursion (3–4 events)
+  </text>
+
+  <!-- Conversational Layer -->
+  <rect x="50" y="450" width="800" height="80" rx="10"
+        fill="url(#conversationalGradient)" />
+  <text x="70" y="495" font-size="22" fill="#ffffff" font-family="Arial">
+    Conversational Layer — Continuous Drift
+  </text>
+
+  <!-- Gradients -->
+  <defs>
+    <!-- Manifold: intense red -->
+    <linearGradient id="manifoldGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2a2a"/>
+      <stop offset="100%" stop-color="#ff7f00"/>
+    </linearGradient>
+
+    <!-- Governance: orange-red -->
+    <linearGradient id="governanceGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff7f00"/>
+      <stop offset="100%" stop-color="#ffbf00"/>
+    </linearGradient>
+
+    <!-- Orbital: orange-yellow -->
+    <linearGradient id="orbitalGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffbf00"/>
+      <stop offset="100%" stop-color="#ffee55"/>
+    </linearGradient>
+
+    <!-- Conversational: yellow-blue -->
+    <linearGradient id="conversationalGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffee55"/>
+      <stop offset="100%" stop-color="#4a90e2"/>
+    </linearGradient>
+  </defs>
+
+</svg>
+
