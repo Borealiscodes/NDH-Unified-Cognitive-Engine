@@ -262,3 +262,4 @@ TriFieldFusionBinding_v5_0:
   enforcement_mode: governance_authoritative
   note: Dignity field takes precedence in all conflicts.
 
+
