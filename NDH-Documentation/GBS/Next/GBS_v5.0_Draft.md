@@ -375,3 +375,32 @@ ContinuityLock_v5_0:
 
 ---
 
+# **17. Release Conditions — RC‑5.0**
+
+```yaml
+ReleaseConditions_v5_0:
+  prerequisites:
+    - boundary_continuous_v5_0
+    - identity_lineage_verified
+    - invariants_perma_sealed
+    - metadata_cohesion_intact
+    - geometry_altitude_fixed
+    - operational_protocols_hardened
+    - conceptual_manifold_stable
+    - runtime_stability_confirmed
+    - drift_resistance_threshold_met
+    - tri_field_fusion_integrity_verified
+    - fusion_binding_perma_locked
+  release_checks:
+    - release_geometry_alignment
+    - continuity_lock_confirmation
+    - post_lock_drift_scan
+    - semantic_metric_dignity_resonance_check
+    - runtime_load_projection
+    - governance_collision_forecast
+  release_state: boundary_releasable_v5_0
+  failure_mode: governance_abort
+```
+
+---
+
