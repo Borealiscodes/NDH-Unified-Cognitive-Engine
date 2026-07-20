@@ -1,0 +1,88 @@
+# NDH Interface Layer — Operator Mapping Definition
+# Location: /NDH/Interface/LegacyBridge/OperatorMapping.def
+# Purpose:
+#   Establish directional mappings from legacy NDH operators to new manifold
+#   constructs within the Stability Geometry Tree. This file is the anchor for
+#   all subsequent interface-layer translation logic.
+
+[Header]
+Version = 1.0
+Manifold = LegacyBridge
+Direction = Legacy → Interface → Manifold
+Boundary = NonDual
+Status = Active
+
+[OperatorMapping]
+
+# 1. Legacy Operator: Resolve()
+#    Description:
+#       Early NDH operator used to collapse unstable cognitive states into a
+#       single stable representation.
+#    New Mapping:
+#       StabilityMetric.Settle()
+#    Notes:
+#       Resolve() is deprecated in the new manifold. StabilityMetric.Settle()
+#       provides a geometry-aligned equivalent with basin-aware behavior.
+
+Resolve() → StabilityMetric.Settle()
+
+
+# 2. Legacy Operator: Calm()
+#    Description:
+#       Prototype operator intended to reduce resonance amplitude.
+#    New Mapping:
+#       BasinFunctions.Serenity.Apply()
+#    Notes:
+#       Calm() is not retained in the new repo. Serenity.Apply() is the canonical
+#       basin-function equivalent.
+
+Calm() → Serenity.Apply()
+
+
+# 3. Legacy Operator: Anchor()
+#    Description:
+#       Early grounding operator used to stabilize oscillatory cognitive states.
+#    New Mapping:
+#       ResonanceField.Clamp()
+#    Notes:
+#       Anchor() partially overlaps with Clamp(). Clamp() is geometry-consistent
+#       and respects manifold curvature.
+
+Anchor() → ResonanceField.Clamp()
+
+
+# 4. Legacy Operator: QuietApex()
+#    Description:
+#       Legacy operator representing the highest-stability attractor.
+#    New Mapping:
+#       QuietApex.op (unchanged)
+#    Notes:
+#       QuietApex remains canonical. It is the attractor feeding Serenity.bsfn.
+
+QuietApex() → QuietApex.op
+
+
+# 5. Legacy Operator: Normalize()
+#    Description:
+#       Early operator for reducing chaotic state variance.
+#    New Mapping:
+#       EnergyFunctional.NormalizeState()
+#    Notes:
+#       NormalizeState() is the geometry-aligned replacement.
+
+Normalize() → EnergyFunctional.NormalizeState()
+
+
+# 6. Legacy Operator: DriftAlign()
+#    Description:
+#       Operator used to align cognitive drift with expected trajectories.
+#    New Mapping:
+#       StabilityMetric.AlignDrift()
+#    Notes:
+#       AlignDrift() is the new canonical operator for drift correction.
+
+DriftAlign() → StabilityMetric.AlignDrift()
+
+
+[EndOfFile]
+
