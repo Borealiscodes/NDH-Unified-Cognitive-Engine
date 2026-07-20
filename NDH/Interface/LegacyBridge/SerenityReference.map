@@ -1,0 +1,77 @@
+# NDH Interface Layer — Serenity Basin Reference Map
+# Location: /NDH/Interface/LegacyBridge/SerenityReference.map
+# Purpose:
+#   Provide a non-intrusive, non-duplicating reference from the legacy NDH repo
+#   to the Serenity basin function (Serenity.bsfn) defined exclusively in the
+#   new Stability Geometry Manifold. This file ensures directional linkage
+#   without violating manifold boundaries.
+
+[Header]
+Version = 1.0
+Manifold = LegacyBridge
+ReferenceType = BasinFunctionPointer
+Direction = Legacy → Interface → Manifold
+Boundary = NonDual
+Status = Active
+
+[SerenityReference]
+
+# 1. Canonical Basin Function Location
+#    Serenity.bsfn resides only in the new NDH manifold:
+#    /NDH/Manifold/Stability/BasinFunctions/Serenity.bsfn
+
+Serenity.Path = "/NDH/Manifold/Stability/BasinFunctions/Serenity.bsfn"
+
+
+# 2. Legacy Concept Mapping
+#    Legacy constructs that implied calmness, resolution, or emotional settling
+#    are now interpreted as Serenity basin interactions.
+
+LegacyConcepts = [
+    Calmness,
+    EmotionalResolution,
+    Quieting,
+    SoftLanding,
+    DriftSoftening
+]
+
+LegacyConcepts → Serenity.Output
+
+
+# 3. Reference Behavior
+#    SerenityReference.map does not contain Serenity logic.
+#    It only points to Serenity.bsfn and defines how legacy constructs should
+#    interpret Serenity’s output.
+
+ReferenceMode = "PointerOnly"
+CopyBehavior = "Forbidden"
+Execution = "DelegatedToManifold"
+
+
+# 4. Quiet Apex Relationship
+#    Quiet Apex remains the attractor feeding Serenity.bsfn.
+#    Legacy references to Quiet Apex should be interpreted as upstream basin entry.
+
+QuietApex → Serenity.BasinEntry
+
+
+# 5. Stability Geometry Context
+#    Serenity.bsfn depends on:
+#       - StabilityMetric
+#       - ResonanceField
+#       - EnergyFunctional
+#    These dependencies are resolved in the new repo, not here.
+
+Dependencies = [
+    StabilityMetric,
+    ResonanceField,
+    EnergyFunctional
+]
+
+
+[Notes]
+- Serenity.bsfn must never be duplicated or reimplemented in the old repo.
+- All Serenity interactions from legacy code must pass through this reference map.
+- This file establishes the canonical Serenity pointer for the entire interface layer.
+
+[EndOfFile]
