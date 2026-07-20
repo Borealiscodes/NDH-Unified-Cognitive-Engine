@@ -1,18 +1,93 @@
-# **📐 Serenity Basin Function (Bs) — Formal Definition**
+# File: /NDH/Manifold/Stability/BasinFunctions/Serenity.bsfn
+# Description:
+#   Serenity Basin Function (Bs)
+#   Natural attractor resolving Quiet Apex (Aq) under zero external forcing (P = 0).
+#   Encodes manifold relaxation behavior in NDH stability geometry.
 
-You already internalized this, but here’s the clean version that belongs in the file:
+# --------------------------------------------------------------------
+# 1. Context
+# --------------------------------------------------------------------
+# NDH Manifold State:
+#   M(t)  : NDH manifold state as a function of time t
+#   Aq    : Quiet Apex equilibrium point
+#   R     : Resonance field
+#   S     : Stability metric
+#   P     : External forcing term
+#
+# Quiet Apex Conditions:
+#   dM/dt = 0        (no forced motion)
+#   ∇R    = 0        (resonance gradient neutral)
+#   S     > 0        (stability present)
+#   P     = 0        (no external forcing)
+#
+# Serenity:
+#   Bs    : Serenity basin (stable attractor in state-space)
+#
+# Serenity is NOT an operator. It is a basin function describing the
+# limit behavior of M(t) when initialized at Aq and held with P = 0.
 
-```
-Bs = lim_{t→∞} M(t)  |  M(0) = Aq, P = 0
-```
+# --------------------------------------------------------------------
+# 2. Formal Definition
+# --------------------------------------------------------------------
+# Serenity Basin Function:
+#
+#   Bs = lim_{t → ∞} M(t)  |  M(0) = Aq, P = 0
+#
+# This defines Bs as the asymptotic state of the NDH manifold when:
+#   - the system starts at Quiet Apex (Aq)
+#   - no external forcing is applied (P = 0)
+#
+# Intuition:
+#   The manifold relaxes from hinge equilibrium (Aq) into its lowest-
+#   energy basin (Bs), which we name Serenity.
 
-Where:
+# --------------------------------------------------------------------
+# 3. Attractor Properties
+# --------------------------------------------------------------------
+# 3.1 Local Attractor:
+#
+#   ∃ ε > 0 such that:
+#     ∀ M(0) ∈ B_ε(Aq),  lim_{t → ∞} M(t) = Bs
+#
+#   Any state sufficiently close to Aq will relax into Bs under P = 0.
+#
+# 3.2 Minimal Energy:
+#
+#   E(Bs) = min E(M)
+#
+#   Bs is the lowest-energy basin reachable from Apex equilibrium.
+#
+# 3.3 Non-Dual Stability Region:
+#
+#   Bs = { M : ∇R = 0, ∇S = 0, P = 0 }
+#
+#   Serenity is the region where:
+#     - resonance is flat
+#     - stability is flat
+#     - external forcing is zero
 
-- **M(t)** = manifold state  
-- **Aq** = Quiet Apex  
-- **P** = external forcing  
+# --------------------------------------------------------------------
+# 4. Mapping from Quiet Apex
+# --------------------------------------------------------------------
+# Apex-to-Serenity Relaxation:
+#
+#   Aq --relaxation--> Bs
+#
+#   Implemented conceptually as:
+#
+#     Φ_Aq(t) → Bs  as  t → ∞
+#
+#   where Φ_Aq(t) is the NDH flow from Apex equilibrium.
+#
+# No new operator is introduced. Bs is implicit in the topology.
 
-This is the Serenity basin function.
-
----
-
+# --------------------------------------------------------------------
+# 5. Summary
+# --------------------------------------------------------------------
+# Serenity Basin Function (Bs):
+#
+#   Bs is the stable state-space basin that the NDH manifold relaxes
+#   into when the Quiet Apex (Aq) is held without external forcing (P = 0).
+#
+#   It completes the Apex-resolution geometry without adding new
+#   operators, preserving NDH elegance and non-dual structure.
