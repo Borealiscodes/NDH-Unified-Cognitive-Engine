@@ -1,0 +1,102 @@
+# NDH Interface Layer — Legacy → Manifold Translation Map
+# Location: /NDH/Interface/LegacyBridge/LegacyToManifold.map
+# Purpose:
+#   Define directional, non-reversible mappings from legacy NDH constructs into
+#   the new Stability Geometry Manifold. This file establishes the translation
+#   rules that govern how legacy concepts, operators, and structures are
+#   interpreted within the higher-dimensional manifold.
+
+[Header]
+Version = 1.0
+Manifold = LegacyBridge
+FlowDirection = Legacy → Interface → Manifold
+Reversibility = False
+Boundary = NonDual
+Status = Active
+
+[TranslationRules]
+
+# 1. Legacy Concept: "State Resolution"
+#    Description:
+#       Legacy NDH used resolution as a conceptual endpoint for unstable states.
+#    Manifold Interpretation:
+#       Resolution is reinterpreted as a transition into a stability basin.
+#    Mapping:
+#       StateResolution → StabilityGeometry.BasinEntry
+
+StateResolution → StabilityGeometry.BasinEntry
+
+
+# 2. Legacy Concept: "Calmness"
+#    Description:
+#       Legacy NDH treated calmness as a scalar emotional reduction.
+#    Manifold Interpretation:
+#       Calmness is now a basin function output (Serenity.bsfn).
+#    Mapping:
+#       Calmness → BasinFunctions.Serenity.Output
+
+Calmness → Serenity.Output
+
+
+# 3. Legacy Concept: "Grounding"
+#    Description:
+#       Grounding was used to stabilize oscillatory cognitive states.
+#    Manifold Interpretation:
+#       Grounding corresponds to resonance-field stabilization.
+#    Mapping:
+#       Grounding → ResonanceField.Stabilize
+
+Grounding → ResonanceField.Stabilize
+
+
+# 4. Legacy Concept: "Drift Correction"
+#    Description:
+#       Drift correction aligned cognitive trajectories with expected paths.
+#    Manifold Interpretation:
+#       Drift correction is now part of stability metric alignment.
+#    Mapping:
+#       DriftCorrection → StabilityMetric.AlignDrift
+
+DriftCorrection → StabilityMetric.AlignDrift
+
+
+# 5. Legacy Concept: "Apex Stability"
+#    Description:
+#       Quiet Apex represented the highest-stability attractor.
+#    Manifold Interpretation:
+#       Quiet Apex remains canonical and feeds Serenity.bsfn.
+#    Mapping:
+#       ApexStability → QuietApex.Attractor
+
+ApexStability → QuietApex.Attractor
+
+
+# 6. Legacy Concept: "Normalization"
+#    Description:
+#       Normalization reduced chaotic variance in legacy NDH.
+#    Manifold Interpretation:
+#       Normalization is now an energy-functional operation.
+#    Mapping:
+#       Normalization → EnergyFunctional.NormalizeState
+
+Normalization → EnergyFunctional.NormalizeState
+
+
+# 7. Legacy Concept: "Operator Cascade"
+#    Description:
+#       Legacy NDH used cascades of operators to achieve stability.
+#    Manifold Interpretation:
+#       Cascades are replaced by manifold flow sequences.
+#    Mapping:
+#       OperatorCascade → StabilityFlow.Sequence
+
+OperatorCascade → StabilityFlow.Sequence
+
+
+[Notes]
+- All mappings are directional and non-reversible.
+- Legacy constructs are not imported into the new repo; they are interpreted.
+- This file defines conceptual translation, not executable logic.
+- Serenity.bsfn remains exclusively in the new manifold.
+
+[EndOfFile]
